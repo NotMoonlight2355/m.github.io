@@ -202,7 +202,32 @@ background-image: url("https://www.countryflags.io/us/flat/32.png");
 
     }
 }
+@media only screen and (max-width: 680px){
+.selected-lang {
+    position: fixed;
+    left: 50%;
+    bottom: 93%;
+}
+}
 
+
+@media only screen and (max-height: 750px) {
+  .line {
+   position: relative;
+   bottom: 10px
+  }
+  .line-3 {
+      width: 90%;
+  }
+    }
+
+@media only screen and (max-width: 500px){
+    .selected-lang {
+        position: fixed;
+        left: 50%;
+        bottom: 93%;
+    }
+    }
  @media screen and (max-width: 800px) {
 .navlinks {
    width: 30%;
@@ -214,6 +239,7 @@ background-image: url("https://www.countryflags.io/us/flat/32.png");
          transition: background 0.4s;
      }
 #flick {
+
     display: none;
 }
   .pc {
